@@ -1,0 +1,43 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Data & Database (Ignored as referenced in Kaggle / setup instructions if applicable)
+*.db
+*.sqlite3
+events.csv
+category_tree.csv
+item_properties_*.csv
+
+# Environment & Config
+.env
+.venv
+venv/
+ENV/
