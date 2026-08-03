@@ -6,12 +6,6 @@
 
 ---
 
-> [!IMPORTANT]
-> ### 📄 Executive PDF Deliverable
-> - 📄 **View Detailed Report:** [**Ecommerce Customer Behavior & Business Performance Analysis.pdf**](./Ecommerce%20Customer%20Behavior%20%26%20Business%20Performance%20Analysis.pdf)
-
----
-
 ## Table of Contents
 - [Executive Overview](#executive-overview)
 - [Project Objective](#project-objective)
@@ -43,10 +37,9 @@ By auditing **2,755,641 clean behavioral events** across **1,407,580 unique visi
 
 ## Project Objective
 
-> [!NOTE]
-> **Objective:** Identify the largest commercial bottlenecks across the customer journey and recommend data-driven initiatives to improve conversion, retention, and performance.
-> 
-> 📄 **Detailed Executive Report:** [**Ecommerce Customer Behavior & Business Performance Analysis.pdf**](./Ecommerce%20Customer%20Behavior%20%26%20Business%20Performance%20Analysis.pdf)
+**Objective:** Identify the largest commercial bottlenecks across the customer journey and recommend data-driven initiatives to improve conversion, retention, and performance.
+
+📄 **Detailed Executive Report:** [**Ecommerce Customer Behavior & Business Performance Analysis.pdf**](./Ecommerce%20Customer%20Behavior%20%26%20Business%20Performance%20Analysis.pdf)
 
 ---
 
