@@ -1,27 +1,20 @@
 # RetailRocket Executive Analytics Case Study
 
 > **(Customer Journey, Performance & Retention Analytics)**  
-> **Author:** [Karan Dangi](https://github.com/karandangi123/retailrocket-ecommerce-analytics/commits?author=karandangi123) (`karandangi123`) | **Domain:** E-commerce Customer Journey, Merchandising & Retention Analytics  
+> **Author:** Karan Dangi | **Domain:** E-commerce Customer Journey, Merchandising & Retention Analytics  
 > **Dataset:** RetailRocket E-Commerce Event Log (2.75M Events, 1.40M Visitors, 235K Products)
 
 ---
 
 > [!IMPORTANT]
-> ### 📄 Executive PDF Deliverable & Author Commit Log
+> ### 📄 Executive PDF Deliverable
 > - 📄 **View Detailed Report:** [**Ecommerce Customer Behavior & Business Performance Analysis.pdf**](./Ecommerce%20Customer%20Behavior%20%26%20Business%20Performance%20Analysis.pdf)
-> - 👤 **Author & Commit History:** [**karandangi123**](https://github.com/karandangi123/retailrocket-ecommerce-analytics/commits?author=karandangi123)
 
 ---
 
 ## Table of Contents
 - [Executive Overview](#executive-overview)
 - [Project Objective](#project-objective)
-- [Key Business Visualizations & Dashboards](#key-business-visualizations--dashboards)
-  - [1. Customer Journey & Conversion Funnel Analytics](#1-customer-journey--conversion-funnel-analytics)
-  - [2. Category Merchandising & Cart Abandonment](#2-category-merchandising--cart-abandonment)
-  - [3. Customer Segmentation (RFM Analysis)](#3-customer-segmentation-rfm-analysis)
-  - [4. Cohort Retention & Churn Decay](#4-cohort-retention--churn-decay)
-  - [5. Behavioral & Temporal Conversion Trends](#5-behavioral--temporal-conversion-trends)
 - [Key Business Performance Metrics](#key-business-performance-metrics)
 - [Skills Demonstrated](#skills-demonstrated)
 - [Technologies & Tools](#technologies--tools)
@@ -53,74 +46,7 @@ By auditing **2,755,641 clean behavioral events** across **1,407,580 unique visi
 > [!NOTE]
 > **Objective:** Identify the largest commercial bottlenecks across the customer journey and recommend data-driven initiatives to improve conversion, retention, and performance.
 > 
-> 🔗 **Detailed Executive Report:** [**Ecommerce Customer Behavior & Business Performance Analysis.pdf**](./Ecommerce%20Customer%20Behavior%20%26%20Business%20Performance%20Analysis.pdf)  
-> 🔗 **Author GitHub Profile / Commits:** [**karandangi123**](https://github.com/karandangi123/retailrocket-ecommerce-analytics/commits?author=karandangi123)
-
----
-
-## Key Business Visualizations & Dashboards
-
-### 1. Customer Journey & Conversion Funnel Analytics
-
-<p align="center">
-  <img src="Charts/Visitor%20Purchase%20Funnel.png" width="800" alt="Visitor Purchase Funnel" />
-</p>
-
-| Stage Transition Analytics | Browser vs Purchaser Journey |
-| :---: | :---: |
-| <img src="Charts/Visitor%20Drop-off%20Between%20Funnel%20Stages.png" width="450" alt="Drop-off Between Stages" /> | <img src="Charts/Visitor%20Journey%20Comparison.png" width="450" alt="Visitor Journey Comparison" /> |
-
-<p align="center">
-  <img src="Charts/Visitor%20Participation%20by%20Funnel%20Stage.png" width="800" alt="Visitor Participation by Funnel Stage" />
-</p>
-
----
-
-### 2. Category Merchandising & Cart Abandonment
-
-<p align="center">
-  <img src="Charts/Category%20Opportunity%20Matrix.png" width="850" alt="Category Opportunity Matrix" />
-</p>
-
-<p align="center">
-  <img src="Charts/Top%20Abandoned%20Categories.png" width="850" alt="Top Abandoned Categories" />
-</p>
-
----
-
-### 3. Customer Segmentation (RFM Analysis)
-
-| RFM Segment Distribution | Visitor Segment Composition |
-| :---: | :---: |
-| <img src="Charts/Customer%20Segmentation%20%28RFM%29.png" width="450" alt="RFM Customer Segmentation" /> | <img src="Charts/Visitor%20Segments.png" width="450" alt="Visitor Segments" /> |
-
----
-
-### 4. Cohort Retention & Churn Decay
-
-<p align="center">
-  <img src="Charts/Monthly%20Cohort%20Retention%20%28%25%29.png" width="850" alt="Monthly Cohort Retention Rate" />
-</p>
-
-<p align="center">
-  <img src="Charts/Average%20Customer%20Retention%20Curve.png" width="850" alt="Average Customer Retention Curve" />
-</p>
-
----
-
-### 5. Behavioral & Temporal Conversion Trends
-
-| Hourly Conversion Rate | Hourly User Activity |
-| :---: | :---: |
-| <img src="Charts/Hourly%20Conversion.png" width="450" alt="Hourly Conversion Rate" /> | <img src="Charts/User%20Activity%20by%20Hour.png" width="450" alt="User Activity by Hour" /> |
-
-| Transactions by Hour | Weekday Events & Transactions |
-| :---: | :---: |
-| <img src="Charts/Transactions%20by%20Hour.png" width="450" alt="Transactions by Hour" /> | <img src="Charts/Transactions%20by%20Weekday.png" width="450" alt="Transactions by Weekday" /> |
-
-<p align="center">
-  <img src="Charts/Events%20by%20Weekday.png" width="850" alt="Events by Weekday" />
-</p>
+> 📄 **Detailed Executive Report:** [**Ecommerce Customer Behavior & Business Performance Analysis.pdf**](./Ecommerce%20Customer%20Behavior%20%26%20Business%20Performance%20Analysis.pdf)
 
 ---
 
@@ -200,14 +126,14 @@ retailrocket/
 │   ├── 04_Cohort_Analysis.ipynb                                     # Acquisition Cohorts & Retention Decay
 │   └── 05_Market_Basket_Analysis.ipynb                              # Apriori Association Rule Mining (Lift)
 │
-├── Datasets & Database (Schema references)
+├── Datasets & Database
 │   ├── events.csv                                                   # Raw Behavioral Event Logs (2.75M rows)
 │   ├── category_tree.csv                                            # Category Hierarchy Metadata
 │   ├── item_properties_part1.csv                                    # Item Properties Dataset (Part 1)
 │   ├── item_properties_part2.csv                                    # Item Properties Dataset (Part 2)
 │   └── ecommerce.db                                                 # SQLite Database storing structured tables
 │
-└── Visualizations & High-Res PNG Charts (15 Embedded Charts)
+└── Visualizations & High-Res PNG Charts (15 Charts)
     ├── Visitor Purchase Funnel.png
     ├── Visitor Participation by Funnel Stage.png
     ├── Visitor Drop-off Between Funnel Stages.png
@@ -258,7 +184,6 @@ This analysis identifies five high-impact commercial opportunities:
 | Deliverable | Description | Link |
 |---|---|---|
 | **Executive PDF Report** | Comprehensive Executive Business Presentation | [**View PDF Report**](./Ecommerce%20Customer%20Behavior%20%26%20Business%20Performance%20Analysis.pdf) |
-| **GitHub Commit History** | Commit Log & Code Authoring | [**karandangi123**](https://github.com/karandangi123/retailrocket-ecommerce-analytics/commits?author=karandangi123) |
 | **SQLite Database** | Structured event tables & queries | `ecommerce.db` |
 | **Analysis Notebooks** | 5 Python + SQL Jupyter Notebooks | [`Notebooks/`](./Notebooks) |
 | **Executive Visualizations** | 15 High-Resolution Charts | [`Charts/`](./Charts) |
@@ -268,7 +193,6 @@ This analysis identifies five high-impact commercial opportunities:
 ## Author & Contact
 
 **Karan Dangi**  
-- **GitHub:** [karandangi123](https://github.com/karandangi123/retailrocket-ecommerce-analytics/commits?author=karandangi123)  
 - **LinkedIn:** [www.linkedin.com/in/karan-dangi-4a672925b](https://www.linkedin.com/in/karan-dangi-4a672925b)  
 - **Email:** [karandangi1867@gmail.com](mailto:karandangi1867@gmail.com)  
 - **Dataset:** [RetailRocket E-Commerce Dataset on Kaggle](https://www.kaggle.com/datasets/retailrocket/ecommerce-dataset)  
